@@ -19,7 +19,7 @@ const AddTodoForm = () => {
         type="text"
         value={todoText}
         onChange={(e) => setTodoText(e.target.value)}
-        className="block w-full text-sm h-[45px] border border-black/12 rounded-[5px] bg-transparent focus:outline-none  focus:border-[#83919f] px-1 mb-2"
+        className="block w-full text-sm h-[5vh] border border-black/12 rounded-[5px] bg-transparent focus:outline-none  focus:border-[#83919f] px-1 mb-2"
       />
       <Button> Add </Button>
     </form>

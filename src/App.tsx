@@ -6,9 +6,9 @@ import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div className="font-poppins bg-[#758694] min-h-screen text-white flex flex-col justify-center items-center">
+    <div className="font-poppins bg-[#758694] min-h-screen text-white flex flex-col justify-end items-center">
       <AppHeading heading="TODO" />
-      <main className="relative bg-white w-[95vw] h-[80vh] grid-rows-[60px_auto_auto] rounded-xl shadow-[0_10px_10px_rgba(0,0,0,0.4)] overflow-hidden grid grid-cols-1 md:grid-cols-3 md:grid-rows-[60px_1fr] lg:w-[60vw]">
+      <main className="relative bg-white w-[95vw] h-[90vh] rounded-xl shadow-[0_10px_10px_rgba(0,0,0,0.4)] overflow-hidden grid grid-cols-1 grid-rows-[auto_auto_1fr] md:grid-cols-3 md:grid-rows-[auto_1fr] lg:w-[60vw]">
         <Header />
         <Sidebar />
         <TodoList />

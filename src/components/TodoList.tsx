@@ -6,11 +6,11 @@ const TodoList = () => {
   return (
     <>
       {todos.length === 0 ? (
-        <div className="col-span-1 md:col-span-2 row-[2/3] md:row-[2/3] text-[#83919f] mt-2 text-[22px] text-center">
+        <div className="col-span-1  md:col-span-2  md:row-[2/3] text-[#83919f] mt-2 text-[22px] text-center">
           Add some todos!
         </div>
       ) : (
-        <ul className="col-span-1 md:col-span-2 row-[2/3] md:row-[2/3] text-[#83919f]">
+        <ul className="col-span-1 overflow-auto md:col-span-2 md:row-[2/3] text-[#83919f]">
           {todos.map((todo) => (
             <li
               key={todo.id}

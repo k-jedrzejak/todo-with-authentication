@@ -7,7 +7,7 @@ const Button = ({ children, buttonType }: ButtonProps) => {
   return (
     <button
       type="submit"
-      className={`transition ease-in-out duration-300 h-[45px] w-full rounded-[5px] bg-[#83919f] text-white cursor-pointer hover:bg-[#717d8a] 
+      className={`transition ease-in-out duration-300 h-[5vh] w-full rounded-[5px] bg-[#83919f] text-white cursor-pointer hover:bg-[#717d8a] 
       ${buttonType === "secondary" ? "opacity-[70%]" : ""}`}
     >
       {children}
