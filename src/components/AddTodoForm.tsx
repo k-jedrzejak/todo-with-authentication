@@ -10,6 +10,10 @@ const AddTodoForm = () => {
       className="text-[#83919f]"
       onSubmit={(e) => {
         e.preventDefault();
+        if (todoText.trim() === "") {
+          alert("Please enter a todo");
+          return;
+        }
         handleAddTodo(todoText);
         setTodoText("");
       }}
