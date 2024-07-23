@@ -1,6 +1,6 @@
 type ButtonProps = {
   children: React.ReactNode;
-  buttonType?: string;
+  buttonType?: "secondary" | "primary";
 };
 
 const Button = ({ children, buttonType }: ButtonProps) => {
